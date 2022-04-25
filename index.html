@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Test Dotscreen</title>
+</head>
+<body>
+    <div class="background">
+        <section class="title">
+            <div class="row">
+                <h1>Tic Tac Toe dotScreen</h1>
+            </div>
+            <div class="row">
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <div class="announcer"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="row">
+            <section class="display">
+                <h2>Player <span class="display-player playerX">X</span>'s turn</h2> 
+            </section>
+        </div>
+        <div class="row">  
+            <section class="containerTab">
+                <div class="playground"></div>
+                <div class="playground"></div>
+                <div class="playground"></div>
+                <div class="playground"></div>
+                <div class="playground"></div>
+                <div class="playground"></div>
+                <div class="playground"></div>
+                <div class="playground"></div>
+                <div class="playground"></div>
+            </section>
+            <div style="margin-left: 120px">
+                <div class="row">
+                    <div id="timer"></div>
+                </div>
+                <div class="row">
+                    Player 1 : <div id="score1" style="margin-left: 10px"></div>
+                </div>   
+                <div class="row">
+                    Player 2 : <div id="score2" style="margin-left: 10px"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <section class="controls">
+                <button id="replay">Replay</button>
+            </section>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
